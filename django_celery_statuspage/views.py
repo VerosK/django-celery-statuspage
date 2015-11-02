@@ -15,6 +15,6 @@ def ping(request):
             content_type='text/plain',
             status=500)
     return HttpResponse(
-        content="OK\nCelery is running. Celery was executed and got result",
+        content="OK\nCelery is running. Celery was executed and got result.",
         content_type='text/plain',
     )
