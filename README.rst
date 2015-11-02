@@ -8,7 +8,7 @@ Usage:
 
 * add `django_celery_statuspage` to your APPLICATIONS
 
-* add `url('^/status/celery/', 'django_celery_status.views.ping_view')`,
+* add `url('^status/celery/', 'django_celery_statuspage.views.ping')`,
   to your url definition
 
 * open `/status/celery/` page on your website

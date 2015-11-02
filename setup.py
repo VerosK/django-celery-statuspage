@@ -13,9 +13,9 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='django-celery-statuspage',
 
-    version='0.0.1',
+    version='0.0.2',
 
-    description='Simple Celery statuspage for Django',
+    description='Django view to render Celery status',
     long_description=long_description,
 
     # The project's main homepage.
