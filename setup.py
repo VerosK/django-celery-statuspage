@@ -13,7 +13,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='django-celery-statuspage',
 
-    version='0.0.2',
+    version='0.0.3',
 
     description='Django view to render Celery status',
     long_description=long_description,
